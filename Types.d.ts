@@ -21,6 +21,8 @@ type ProjectProps = {
   name: string;
   description: string;
   tools: string[];
+  github: string;
+  live: string;
 };
 type CountUpProps = {
   start: number;

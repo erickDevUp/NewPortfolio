@@ -52,6 +52,8 @@ const projects: ProjectProps[] = [
     description:
       "Prototype short-form video player using the Hive #blockchain, the @3speak api with the videos of @3shortss *Mobile only",
     tools: ["NextJs", "CssModules"],
+    github: "https://github.com/erickDevUp/hShorts",
+    live: "https://hshort.netlify.app/feed/",
   },
   {
     id: 2,
@@ -60,6 +62,8 @@ const projects: ProjectProps[] = [
     description:
       "Luxury car e-commerce is an example of how to create a web platform, adapted to various devices and easy to use.",
     tools: ["React", "CSS"],
+    github: "https://github.com/erickDevUp/carsecommerce",
+    live: "https://top-e-cars.netlify.app/",
   },
   {
     id: 3,
@@ -68,6 +72,18 @@ const projects: ProjectProps[] = [
     description:
       "Our weather forecast web application is an easy-to-use tool with a visually appealing design. With a connection to a trusted third-party weather API",
     tools: ["React", "CSS"],
+    github: "https://github.com/erickDevUp/seeYouClimate",
+    live: "https://climatestyles.netlify.app/",
+  },
+  {
+    id: 6,
+    img: "/project6.jpeg",
+    name: "Erick Garcia Portfolio",
+    description:
+      "web portfolio has an intuitive user interface that makes it easy to navigate and find information about our work and experience",
+    tools: ["NextJs", "TaildwindCss", "TypeScript"],
+    github: "https://github.com/erickDevUp/NewPortfolio",
+    live: "https://erickdevup.netlify.app/",
   },
   {
     id: 4,
@@ -76,14 +92,18 @@ const projects: ProjectProps[] = [
     description:
       "Minimalist and elegant to-do list is an excellent option for those looking for a highly productive tool with a visually appealing design.",
     tools: ["React", "CSS"],
+    github: "https://github.com/erickDevUp/TodoMorph",
+    live: "https://todomorph.netlify.app/",
   },
   {
     id: 5,
     img: "/project5.jpeg",
     name: "SeeingStars",
     description:
-      "This Telegram bot offers a daily dose of astronomy by sending you a breathtaking photo of space along with some interesting news about the field",
+      "This Telegram bot offers a daily dose of astronomy by sending you a breathtaking photo of space along with some news about the field",
     tools: ["NodeJS", "Telegraf"],
+    github: "https://github.com/erickDevUp/telegram-bot-Astronomy",
+    live: "https://t.me/seeingStars_bot",
   },
 ];
 

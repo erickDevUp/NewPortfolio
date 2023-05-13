@@ -20,16 +20,23 @@ export default function Portfolio() {
           <div className="font-semibold text-3xl mt-8 text-White uppercase">
             My Projects
           </div>
+
+          <p className="text-WhiteGray text-base mt-10 leading-8 w-[80%]">
+            I have been working as a contract on various blockchain projects
+            like Frontend Developer NextJs / Chakraui in which I have interacted
+            with API, building Landing pages, made Form validation, creation of
+            KYC processes with document and identity validation.
+          </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 my-8 md:px-8">
             {projects.map((project) => (
               <div key={project.id} className="bg-Blur p-4  rounded-lg">
                 <div className="w-full  relative group">
                   <img className="cursor-pointer" src={project.img} alt="" />
                   <div className="absolute w-full h-full  bg-blue-400 top-0 left-0 z-10 flex items-center justify-center gap-4 scale-0 group-hover:scale-100 transition-all duration-300">
-                    <Link href="">
+                    <Link href={project.github}>
                       <AiFillGithub className="text-3xl hover:scale-110 transition-all duration-300" />
                     </Link>
-                    <Link href="">
+                    <Link href={project.live}>
                       <AiFillEye className="text-3xl hover:scale-110 transition-all duration-300" />
                     </Link>
                   </div>

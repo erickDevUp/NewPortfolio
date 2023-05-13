@@ -34,7 +34,7 @@ export default function About() {
             </p>
             <div className="flex gap-8 mt-8">
               <Link
-                href="/contact"
+                href="mailto:erickgarciap779@gmail.com"
                 className="text-blue-400 font-semibold text-sm uppercase hover:underline"
               >
                 Contact Me

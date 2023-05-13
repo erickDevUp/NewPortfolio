@@ -28,19 +28,19 @@ export default function Wrapper({
       <>{children}</>
 
       <div className="fixed bottom-12 left-6 hidden md:flex items-center flex-col gap-4">
-        <Link href={"https://www.github.com"} target={"_blank"}>
+        <Link href={"https://github.com/erickDevUp/"} target={"_blank"}>
           <AiFillGithub className={socialClassNames} />
         </Link>
-        <Link href={"https://www.instagram.com"} target={"_blank"}>
+        <Link href={"https://linkedin.com/in/erickdevup"} target={"_blank"}>
           <Linkedin />
         </Link>
-        <Link href={"https://www.instagram.com"} target={"_blank"}>
+        <Link href={"mailto:erickgarciap779@gmail.com"} target={"_blank"}>
           <EmailIcon />
         </Link>
-        <Link href={"https://www.instagram.com"} target={"_blank"}>
+        <Link href={"https://t.me/erickDevUp"} target={"_blank"}>
           <TelegramIcon />
         </Link>
-        <Link href={"https://www.twitter.com"} target={"_blank"}>
+        <Link href={"https://twitter.com/erickdevup/"} target={"_blank"}>
           <AiFillTwitterCircle className={socialClassNames} />
         </Link>
       </div>
